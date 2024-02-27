@@ -5,9 +5,8 @@
  * @tree: a pointer to the root node of the tree to check
  *
  * Return: 1 if the tree is perfect
- *         0 if the tree is not perfect
- *         0 if tree is NULL
  */
+
 int binary_tree_is_perfect(const binary_tree_t *tree)
 {
 	size_t height = 0;
@@ -52,6 +51,7 @@ int _pow_recursion(int x, int y)
  * Return: size of the tree
  *         0 if tree is NULL
  */
+
 size_t binary_tree_size(const binary_tree_t *tree)
 {
 	if (!tree)
@@ -67,6 +67,7 @@ size_t binary_tree_size(const binary_tree_t *tree)
  * Return: height of the tree
  *         0 if tree is NULL
  */
+
 size_t binary_tree_height(const binary_tree_t *tree)
 {
 	size_t height_l = 0;
